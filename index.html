@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Raporteaza defecte</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagini/logo.jpg" alt="Logo">
+        <h1 class="title">Raporteaza defecte</h1>
+        <link rel="stylesheet" href="styles/style1.css">
+    </header>
+    <nav>
+        <div>
+        <a href="index.html"><u>Acasa</u></a> 
+        <a href="Raportare.html">Raportare</a> 
+        <a href="dashboard.html">Dashboard</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    </nav><br><br><br>
+    <section>
+        <main>
+            
+                <form class="container">
+                    <label for="Imagini">Alegeti fisierul:</label>
+                    <input type="file" id="file"><br><br>
+                    <label for="body">Mesaj:</label><br><br>
+                    <textarea id="body" name="body" required></textarea><br><br>
+                    <select>
+                        <option value="1">Tipul problemei</option>
+                        <option value="2">Defect estetic</option>
+                        <option value="3">Funcționalitate</option>
+                        <option value="4">Ambalaj</option>        
+                    </select><br><br>
+                    <button input type="submit" onclick=popout()>Trimite</button>
+                </form>
+        </main>
+        <aside>Extra information.</aside>
+    </section>
+    <footer>Spiridusii lui Mos Craciun</footer>
+    </body>
+    </html>

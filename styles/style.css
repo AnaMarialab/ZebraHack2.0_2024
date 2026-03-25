@@ -1,0 +1,141 @@
+header{
+    background-color: rgb(117, 34, 34);
+    font-family: "sans-serif","serifs";
+    font-weight: bold;
+    width: max;
+    height: 100px;
+}
+.title{
+    text-align: center;
+    text-shadow: 5px 0 0 rgb(0, 0, 0);
+    color:#ffffff;
+    padding:16px;
+    font-size: 3em;
+}
+p{
+    color:black;
+    padding-left:40px;
+    font-family: "sans-serif","serifs";
+    font-size: 20px;
+}
+body{
+    background-color: white;
+    margin: 0 auto;
+    align-items: center;
+
+}
+footer{
+    background-color: rgb(117, 34, 34);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 0 0 rgb(0, 0, 0);
+    font-size: 30px;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height : 40px;
+    bottom: 0;
+}
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+nav a {
+    color: #752222;
+    text-decoration: none;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    background-color: rgb(117, 34, 34);
+    color: white;
+}
+.topnav .icon {
+    display: none;
+  }
+.logo{
+    float: left;
+    height: 4em;
+    display: flex;
+    padding: 13px;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(117, 34, 34);
+    padding: 1em;
+    text-align: left;
+    font-size: larger; font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    border-radius: 1.5em;
+    background-color: rgb(170, 110, 110);
+    padding: 3em;
+    text-align: center;
+    width: 30em;
+    height: 30em;
+  }
+  form{
+    box-shadow: 20px -20px 0 silver;
+    display: inline-block;
+    margin-left:35%;
+    margin-right: 35%;
+  }
+  #body{
+    color:black;
+    font-family: "sans-serif","serifs";
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    width: 25em;
+    height: 10em
+
+  }
+  label{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration-line: underline ;
+  }
+  #file{
+    color:black;
+    font-family: "sans-serif","serifs";
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    width: 17em;
+    height: 1em
+  }
+  select{
+    color:black;
+    font-family: "sans-serif","serifs";
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    width: 8em;
+    height: 2em
+  }
+  button{
+    color:black;
+    font-family: "sans-serif","serifs";
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em;
+    padding: 0.5em;
+  }
+@media screen and (max-width: 600px) {
+
+    .logo {
+        display:flex;
+    }
+    .title {
+        display:flex;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
